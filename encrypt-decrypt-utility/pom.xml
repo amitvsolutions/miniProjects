@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.secure</groupId>
+  <artifactId>encrypt-decrypt-utility</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>encrypt-decrypt-utility</name>
+  
+  <dependencies>
+	  <dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20231013</version>
+	 </dependency>
+	 
+	 <dependency>
+	    <groupId>commons-codec</groupId>
+	    <artifactId>commons-codec</artifactId>
+	    <version>1.16.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.bouncycastle</groupId>
+	    <artifactId>bcpkix-jdk15on</artifactId>
+	    <version>1.70</version>
+	</dependency>
+  </dependencies>
+  
+  
+</project>
